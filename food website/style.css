@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  background-color: rgb(210, 208, 207);
+}
+
+#menuBar img {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+
+.header {
+  /* background-color: rgb(182, 187, 179); */
+  background-image: url("images/background.jpg");
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+}
+
+.header h1 {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 5%;
+  color: rgb(154, 135, 42);
+  font-size: 3em;
+}
+
+.header p {
+  width: 55%;
+    margin-left: 5%;
+
+}
+
+.header h1, .download {
+  margin-left: 5%;
+  
+
+}
+
+.download a, button {
+  border: 2px solid rgb(154, 135, 42) ;
+  color: rgb(154, 135, 42);
+  border-radius: 14px;
+  padding: 5px 30px 5px 30px;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+
+.header a {
+  text-decoration: none;
+}
+
+.download a, button {
+  border: 2px solid rgb(154, 135, 42) ;
+  color: rgb(154, 135, 42);
+  border-radius: 14px;
+}
+
+.partners{
+  margin: 60px auto 60px auto;
+  width: 80%;
+}
+
+.partners h2 {
+  color: rgb(154, 135, 42);
+  text-align: center;
+}
+
+.partners img {
+
+  width: 25% ;
+}
+
+/* Our Story */
+
+.story {
+ 
+  padding: 5%;
+  margin: auto;
+  width: 60%;
+}
+
+.story div {
+  margin: 100px 0;
+  
+}
+
+.story p,
+.story h3,
+hr {
+  
+}
+
+.story h2 {
+  color: rgb(220, 210, 80);
+  font-family: "Roboto";
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.story01 img {
+  float: right;
+  height: 500px;
+  margin-top: -40px;
+}
+
+.story02 img {
+  float: left;
+  height: 500px;
+}
+
+hr {
+  width: 60px;
+  border-bottom: 2px solid;
+  float: left;
+
+}
